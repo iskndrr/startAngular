@@ -1,28 +1,38 @@
-.nav-item a{
+.nav-item a {
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 1.8rem;
     font-weight: 700;
 }
-nav{
+
+nav {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 999999;
     background-color: #2C3E50;
 }
-.bg-green{
+
+.bg-green {
     background-color: #1ABC9C;
 }
 
-.active{
+.active {
     background-color: #1ABC9C !important;
     border-radius: .5rem;
 }
-a{
-    padding: .7rem 1rem !important; 
+
+a {
+    padding: .7rem 1rem !important;
+
+}
+
+@media screen and (max-width:600px) {
+    nav a, nav button{
+        font-size: 1.2rem !important;
+    }
 
 }
