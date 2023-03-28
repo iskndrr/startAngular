@@ -1,0 +1,53 @@
+.line {
+    height: 5px;
+    width: 100px;
+    margin: 0 20px;
+    background-color: #2C3E50;
+}
+.bg-layer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #1abc9cbd;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.bg-layer i {
+    cursor: pointer;
+}
+.img:hover .bg-layer{
+    opacity: 1;
+}
+
+
+i {
+    color: #2C3E50;
+}
+
+h2 {
+    color: #2C3E50;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.modal{
+    z-index: 9999999;
+}
+.w-60{
+    width: 60%;
+}
+
+.bg-green{
+    background-color: #1ABC9C;
+}
+
+.bg-green:hover{
+    background-color: #24675a;
+}
+.green{
+    color: #1ABC9C;
+}
+.green:hover{
+    color:#24675a ;
+}

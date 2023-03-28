@@ -1,0 +1,22 @@
+i {
+    color: #2C3E50;
+}
+
+h2 {
+    color: #2C3E50;
+    font-size: 48px;
+    font-weight: 700;
+}
+.line {
+    height: 5px;
+    width: 100px;
+    margin: 0 20px;
+    background-color: #2C3E50;
+}
+
+.form-btn{
+ background-color:#1ABC9C ;
+}
+.form-btn:hover{
+    background-color: #1c9980;
+}

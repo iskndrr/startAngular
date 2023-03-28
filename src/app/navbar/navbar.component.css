@@ -1,0 +1,28 @@
+.nav-item a{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999999;
+    background-color: #2C3E50;
+}
+.bg-green{
+    background-color: #1ABC9C;
+}
+
+.active{
+    background-color: #1ABC9C !important;
+    border-radius: .5rem;
+}
+a{
+    padding: .7rem 1rem !important; 
+
+}

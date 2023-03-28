@@ -1,0 +1,64 @@
+<section id="potfolio" class="my-5 p-5">
+    <div class="container">
+        <div class="row justify-content-center align-items-center g-4">
+            <div class="col-md-12 text-center">
+                <h2>PORTFOLIO</h2>
+                <div class="star my-3 d-flex justify-content-center align-items-center text-center">
+                    <div class="line rounded"></div>
+                    <i class="fas fa-star fa-2x"></i>
+                    <div class="line rounded"></div>
+                </div>
+            </div>
+            <div class="col-md-4 work " (click)="showModal(el)" *ngFor="let el of data" [id]="el.id"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="img position-relative">
+                    <img [src]="el.image" class="w-100" [alt]="el.title">
+                    <div class="bg-layer d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus fa-4x text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="ms-auto btn " data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-close fa-3x green "></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-4">
+                        <div class="row row-cols-1 g-4">
+                            <div class="col text-center">
+                                <h2>{{cardDetails.title}}</h2>
+                                <div class="star my-3 d-flex justify-content-center align-items-center text-center">
+                                    <div class="line rounded"></div>
+                                    <i class="fas fa-star fa-2x"></i>
+                                    <div class="line rounded"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="img w-60 m-auto text-center">
+                                    <img [src]="cardDetails.image" class="w-100 rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <p class=" m-auto w-60">{{cardDetails.description}}</p>
+                            </div>
+                            <div class="col text-center">
+                                <button type="button" class="btn bg-green text-white" data-bs-dismiss="modal"><i
+                                        class="fas fa-close fa-1x text-white"></i> Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

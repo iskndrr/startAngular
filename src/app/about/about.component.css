@@ -1,0 +1,29 @@
+i {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.line {
+    height: 5px;
+    width: 100px;
+    margin: 0 20px;
+    background-color: #fff;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#about{
+    background-color: #1ABC9C;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff !important;
+}

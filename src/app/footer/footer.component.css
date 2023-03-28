@@ -1,0 +1,21 @@
+.btn-social{
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover{
+    background-color: #fff;
+    color: black !important;
+}
+
+footer{
+    background-color: #2C3E50;
+}
+.copyright{
+    background-color: #1A252F;
+}
